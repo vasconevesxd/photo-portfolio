@@ -25,3 +25,4 @@ mongoose.connect(
 );
 
 app.use("/users", require("./routes/userRouter"));
+app.use("/todos", require("./routes/todoRouter"));
